@@ -1,0 +1,49 @@
+.title {
+  margin-bottom: 16px;
+  padding: 8px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d4a373;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 24px;
+
+  padding-left: 0;
+}
+
+.list__item {
+  list-style: none;
+}
+
+.btn__link {
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+
+  background-color: #e9edc9;
+}
+
+.btn__link_active {
+  background-color: #d4a373;
+}
+
+.btn__link_active:disabled {
+  color: inherit;
+  cursor: auto;
+}
+
+.btn__link:hover {
+  background-color: #fefae0;
+}
+
+.btn__link:hover:disabled {
+  background-color: #d4a373;
+}

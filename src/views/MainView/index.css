@@ -1,0 +1,20 @@
+.empty {
+  text-align: center;
+  color: orangered;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.loading {
+  text-align: center;
+  color: #ccd5ae;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.input__container {
+  margin: auto;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 600px;
+}
